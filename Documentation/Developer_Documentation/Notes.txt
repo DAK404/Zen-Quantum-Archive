@@ -1,0 +1,15 @@
+Here we talk about the general stuff to refer to while building the program.
+
+1) clearing the console.
+
+for Windows:
+
+new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+
+for Unix and Unix like systems only
+System.out.print("\033[H\033[2J");
+System.out.flush();
+
+Explanation:
+the 1st code is windows exclusive which uses unicode.
+the 2nd code is for ANSI based terminals.

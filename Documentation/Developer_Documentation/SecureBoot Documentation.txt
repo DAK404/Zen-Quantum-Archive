@@ -1,0 +1,35 @@
+===========================
+|| SecureBoot Technology ||
+===========================
+
+Introduction.
+
+If you want to secure a program, you need to run the program via a secure way, telling the program that an authorized program is trying to access it.
+This helps to maintain code integrity and code security, whilst taking up the least amount of memory.
+
+So if you ever wondered the variables SecureBoot and SB, you are encountering SecureBoot fuses.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+SecureBoot and SB variables
+
+SecureBoot is a boolean variable which helps to have authorized access to the program and blocking the ones which are unofficial
+In each program there are 2 booleans in 2 different locations:
+1) Class variable -> there resides a SB variable which is local to the class, which is set only once during the program.
+2) Constructor -> a boolean needs to accept the variable for booting securely, which is the SecureBoot. This has become the standard for the program structure.
+
+This makes it easier where each method need not have a SecureBoot variable, thus reducing the memory usage and program speed and efficiency.
+| NOTE |
+-There is no need for the static variable for SB and SecureBoot since they need to be initialised only once.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+FUSE (Fractal User Security Engine)
+
+This is a prototype code where the program exits, with a certain error code to indicate an abnormal termination of the program.
+Imagine you wonder why your program crashed, but you have no idea since you do not have a reference log to look at. This makes it harder for the program to be debugged.
+If the program crashes and is recorded on log file, you get an idea on how to debug and avert an exception or error.
+Therefore, fuse is helpful to understand how program performs and how efficient is it.
+
+--------------------------------------------------------------------------------------------------------------------------------
+END OF FILE
