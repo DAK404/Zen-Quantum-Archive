@@ -1,0 +1,60 @@
+~~~~~~~~~~~
+~ Credits ~
+~~~~~~~~~~~
+
+___________________________________________________
+
+ Arsenic Raptors present:
+
+    _____________________
+   /                    /
+  /   ZEN QUANTUM 2.0  /
+ /____________________/
+
+ Powered By : ELIXIR KERNEL
+___________________________________________________
+
+Hello there!
+
+This opensource software has a team of people whose
+efforts were poured in to make this program as bug
+free as possible!
+
+Note that the program is released under the LGPL 
+License which, in brief, includes the following:
+
+- Users are liable for their data
+- Source code must be distributed with the program
+- Source code modifications or addition must be made
+public along with the original source code.
+- Derived code from the base
+
+-------------------------------------------------------
+
+Programming:
+
+- Deepak Anil Kumar (Core, API and MainMenu Modules)
+
+
+Documentation/Review:
+
+-Bebhin Mathew (Suggested modules & streamlined ideas)
+-Deepak Anil Kumar (core documentation)
+
+
+Testing:
+
+- Sither Tsering (Tested Debug Builds)
+- Bebhin Mathew (Tested Final Builds)
+- Deepak Anil Kumar (Tested the Pre-Release Builds)
+
+
+-------------------------------------------------------
+
+If you have any issues or queries, please do open an 
+issue on GitHub and please describe it! The team will
+look into the matter ASAP. Stay tuned for more updates!
+
+-------------------------------------------------------
+END OF FILE.
+-------------------------------------------------------

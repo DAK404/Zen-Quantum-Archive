@@ -1,0 +1,57 @@
+~~~~~~~~~~~~~~~~~~~~
+|~~  Changelogs  ~~|
+~~~~~~~~~~~~~~~~~~~~
+
+Here is a list of changes since the last build!
+
+________________________________________________________________
+
+**********************************
+*                                * 
+* 04:13 AM 10-May-20 +0530 GMT   *
+* Kernel Version  : 2.7 [Elixir] *
+*                                *
+* Release Build                  *
+**********************************
+
+[DEEPAK]
+
+1. Memory Optimizations.
+2. Deprecated the Fractal File Saving System
+3. Added SQLite for Database
+4. Re-implemented the User Management System
+5. Updater is working and links are live
+6. Fixed the update and download sections,
+   which shows as download successful even
+   when it was failed.
+7. Fixed Encryption and Decryption crashes when 
+   invalid file name was provided.
+8. Added TextEditor
+   
+
+[BEBHIN]
+
+1. Added the program documentation for reference 
+   (see index.html in project root folder)
+2. Re-Wrote the BuildScript.bat and the RunProgram.bat
+3. Tested the Unix Build using the WSL in Windows 10
+4. Proposed the feature to abstract the login program.
+5. Added a New UI to the program.
+
+
+[SITHER]
+
+1. Collected and analyzed the logs from debug builds.
+   a. Discovered a flaw where SB was mutable in runtime
+      (Issue ID: P1-SBC-0xC0002)
+   b. Discovered a vulnerability where the messenger session
+      could have possible conflicts when multiple Administrators
+      joined the session
+      (Issue ID: P3-MMM-0xA0001)
+   c. Discovered the download bug, and resolved it.
+2. Proposed changes for the Program UI to be more neat.
+3. Updated the website.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+END OF FILE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
